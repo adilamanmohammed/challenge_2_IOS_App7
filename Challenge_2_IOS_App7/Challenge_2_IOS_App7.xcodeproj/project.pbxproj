@@ -14,6 +14,7 @@
 		A58DD3F92C1BEC0F00CC1638 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58DD3F82C1BEC0F00CC1638 /* AboutView.swift */; };
 		A58DD3FB2C1BED2100CC1638 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58DD3FA2C1BED2100CC1638 /* MainView.swift */; };
 		A58DD3FD2C1BEF5900CC1638 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58DD3FC2C1BEF5900CC1638 /* DataService.swift */; };
+		A5CEE2C42C1D2601006E2735 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CEE2C32C1D2601006E2735 /* PhotoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		A58DD3F82C1BEC0F00CC1638 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AboutView.swift; path = ../AboutView.swift; sourceTree = "<group>"; };
 		A58DD3FA2C1BED2100CC1638 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = ../MainView.swift; sourceTree = "<group>"; };
 		A58DD3FC2C1BEF5900CC1638 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataService.swift; path = ../DataService.swift; sourceTree = "<group>"; };
+		A5CEE2C32C1D2601006E2735 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				A58DD3FA2C1BED2100CC1638 /* MainView.swift */,
 				A58DD3F62C1BEB7700CC1638 /* MenuView.swift */,
 				A58DD3F82C1BEC0F00CC1638 /* AboutView.swift */,
+				A5CEE2C32C1D2601006E2735 /* PhotoView.swift */,
 				A58DD3FC2C1BEF5900CC1638 /* DataService.swift */,
 				A58DD3EA2C1BE74100CC1638 /* Assets.xcassets */,
 				A58DD3EC2C1BE74100CC1638 /* Preview Content */,
@@ -148,6 +151,7 @@
 			files = (
 				A58DD3F72C1BEB7700CC1638 /* MenuView.swift in Sources */,
 				A58DD3E72C1BE74000CC1638 /* Challenge_2_IOS_App7App.swift in Sources */,
+				A5CEE2C42C1D2601006E2735 /* PhotoView.swift in Sources */,
 				A58DD3FB2C1BED2100CC1638 /* MainView.swift in Sources */,
 				A58DD3F92C1BEC0F00CC1638 /* AboutView.swift in Sources */,
 				A58DD3FD2C1BEF5900CC1638 /* DataService.swift in Sources */,

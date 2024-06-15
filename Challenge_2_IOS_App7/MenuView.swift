@@ -10,8 +10,9 @@ import SwiftUI
 struct MenuView: View {
     
     @State var photoData = [String]()
-    @State var SelectedPhoto = " "
-    var DataServices = DataService ()
+    @State var selectedPhoto = " "
+    @State var sheetVisible = false
+    var DataServices = DataService()
     
     
     
@@ -37,6 +38,10 @@ struct MenuView: View {
                                 .frame(maxWidth: (proxy.size.width+150)/3)
 //                                .frame(maxHeight:100)
                                 .padding(.bottom)
+                                .onTapGesture {
+                                    selectedPhoto = p
+                                    sheetVisible = true
+                                }
                                 
                         }
                         
@@ -51,6 +56,10 @@ struct MenuView: View {
             .onAppear(){
             photoData = DataServices.getPhotos()
         }
+        .sheet(isPresented: $sheetVisible){
+                
+                PhotoView(selectedPhoto: $selectedPhoto, sheetVisible: $sheetVisible)
+            }
         
         
     }
